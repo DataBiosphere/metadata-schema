@@ -1,0 +1,549 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "aliquot": {
+      "$id": "/properties/aliquot",
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "$id": "/properties/aliquot/properties/project_id",
+          "type": "string",
+          "title": "The Project_id Schema ",
+          "default": "",
+          "examples": [
+            "topmed-public"
+          ]
+        },
+        "aliquot_quantity": {
+          "$id": "/properties/aliquot/properties/aliquot_quantity",
+          "type": "null",
+          "title": "The Aliquot_quantity Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "aliquot_volume": {
+          "$id": "/properties/aliquot/properties/aliquot_volume",
+          "type": "null",
+          "title": "The Aliquot_volume Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "experiment_date": {
+          "$id": "/properties/aliquot/properties/experiment_date",
+          "type": "null",
+          "title": "The Experiment_date Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "analyte_isolation_batch_id": {
+          "$id": "/properties/aliquot/properties/analyte_isolation_batch_id",
+          "type": "null",
+          "title": "The Analyte_isolation_batch_id Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "analyte_isolation_date": {
+          "$id": "/properties/aliquot/properties/analyte_isolation_date",
+          "type": "null",
+          "title": "The Analyte_isolation_date Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "analyte_type": {
+          "$id": "/properties/aliquot/properties/analyte_type",
+          "type": "string",
+          "title": "The Analyte_type Schema ",
+          "default": "",
+          "examples": [
+            "DNA"
+          ]
+        },
+        "submitter_id": {
+          "$id": "/properties/aliquot/properties/submitter_id",
+          "type": "string",
+          "title": "The Submitter_id Schema ",
+          "default": "",
+          "examples": [
+            "NWD319341"
+          ]
+        },
+        "amount": {
+          "$id": "/properties/aliquot/properties/amount",
+          "type": "null",
+          "title": "The Amount Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "analyte_isolation_method": {
+          "$id": "/properties/aliquot/properties/analyte_isolation_method",
+          "type": "null",
+          "title": "The Analyte_isolation_method Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "exclude": {
+          "$id": "/properties/aliquot/properties/exclude",
+          "type": "null",
+          "title": "The Exclude Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "concentration": {
+          "$id": "/properties/aliquot/properties/concentration",
+          "type": "null",
+          "title": "The Concentration Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "experimental_strategy": {
+          "$id": "/properties/aliquot/properties/experimental_strategy",
+          "type": "null",
+          "title": "The Experimental_strategy Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "type": {
+          "$id": "/properties/aliquot/properties/type",
+          "type": "string",
+          "title": "The Type Schema ",
+          "default": "",
+          "examples": [
+            "aliquot"
+          ]
+        },
+        "exclusion_criteria": {
+          "$id": "/properties/aliquot/properties/exclusion_criteria",
+          "type": "null",
+          "title": "The Exclusion_criteria Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "experiment_batch_id": {
+          "$id": "/properties/aliquot/properties/experiment_batch_id",
+          "type": "null",
+          "title": "The Experiment_batch_id Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        }
+      }
+    },
+    "sample": {
+      "$id": "/properties/sample",
+      "type": "object",
+      "properties": {
+        "pathology_notes": {
+          "$id": "/properties/sample/properties/pathology_notes",
+          "type": "null",
+          "title": "The Pathology_notes Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "biospecimen_anatomic_site": {
+          "$id": "/properties/sample/properties/biospecimen_anatomic_site",
+          "type": "null",
+          "title": "The Biospecimen_anatomic_site Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "oct_embedded": {
+          "$id": "/properties/sample/properties/oct_embedded",
+          "type": "null",
+          "title": "The Oct_embedded Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "submitter_id": {
+          "$id": "/properties/sample/properties/submitter_id",
+          "type": "string",
+          "title": "The Submitter_id Schema ",
+          "default": "",
+          "examples": [
+            "NA19238_sample"
+          ]
+        },
+        "hours_to_collection": {
+          "$id": "/properties/sample/properties/hours_to_collection",
+          "type": "null",
+          "title": "The Hours_to_collection Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "prosector_notes": {
+          "$id": "/properties/sample/properties/prosector_notes",
+          "type": "null",
+          "title": "The Prosector_notes Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "id": {
+          "$id": "/properties/sample/properties/id",
+          "type": "string",
+          "title": "The Id Schema ",
+          "default": "",
+          "examples": [
+            "e450679d-0c17-467c-8fd5-dba1510f041b"
+          ]
+        },
+        "collection_kit": {
+          "$id": "/properties/sample/properties/collection_kit",
+          "type": "null",
+          "title": "The Collection_kit Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "biospecimen_anatomic_site_uberon_term": {
+          "$id": "/properties/sample/properties/biospecimen_anatomic_site_uberon_term",
+          "type": "null",
+          "title": "The Biospecimen_anatomic_site_uberon_term Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "sample_type": {
+          "$id": "/properties/sample/properties/sample_type",
+          "type": "null",
+          "title": "The Sample_type Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "autolysis_score": {
+          "$id": "/properties/sample/properties/autolysis_score",
+          "type": "null",
+          "title": "The Autolysis_score Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "project_id": {
+          "$id": "/properties/sample/properties/project_id",
+          "type": "string",
+          "title": "The Project_id Schema ",
+          "default": "",
+          "examples": [
+            "topmed-public"
+          ]
+        },
+        "current_weight": {
+          "$id": "/properties/sample/properties/current_weight",
+          "type": "null",
+          "title": "The Current_weight Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "composition": {
+          "$id": "/properties/sample/properties/composition",
+          "type": "string",
+          "title": "The Composition Schema ",
+          "default": "",
+          "examples": [
+            "B-lymphocyte"
+          ]
+        },
+        "internal_notes": {
+          "$id": "/properties/sample/properties/internal_notes",
+          "type": "null",
+          "title": "The Internal_notes Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "is_ffpe": {
+          "$id": "/properties/sample/properties/is_ffpe",
+          "type": "null",
+          "title": "The Is_ffpe Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "biospecimen_anatomic_site_detail": {
+          "$id": "/properties/sample/properties/biospecimen_anatomic_site_detail",
+          "type": "null",
+          "title": "The Biospecimen_anatomic_site_detail Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "method_of_sample_procurement": {
+          "$id": "/properties/sample/properties/method_of_sample_procurement",
+          "type": "null",
+          "title": "The Method_of_sample_procurement Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "tissue_type": {
+          "$id": "/properties/sample/properties/tissue_type",
+          "type": "null",
+          "title": "The Tissue_type Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "collection_site": {
+          "$id": "/properties/sample/properties/collection_site",
+          "type": "null",
+          "title": "The Collection_site Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "freezing_method": {
+          "$id": "/properties/sample/properties/freezing_method",
+          "type": "null",
+          "title": "The Freezing_method Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "biospecimen_physical_site": {
+          "$id": "/properties/sample/properties/biospecimen_physical_site",
+          "type": "null",
+          "title": "The Biospecimen_physical_site Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "biospecimen_type": {
+          "$id": "/properties/sample/properties/biospecimen_type",
+          "type": "string",
+          "title": "The Biospecimen_type Schema ",
+          "default": "",
+          "examples": [
+            "Normal - other"
+          ]
+        },
+        "type": {
+          "$id": "/properties/sample/properties/type",
+          "type": "string",
+          "title": "The Type Schema ",
+          "default": "",
+          "examples": [
+            "sample"
+          ]
+        },
+        "preservation_method": {
+          "$id": "/properties/sample/properties/preservation_method",
+          "type": "null",
+          "title": "The Preservation_method Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "biospecimen_anatomic_site_uberon_id": {
+          "$id": "/properties/sample/properties/biospecimen_anatomic_site_uberon_id",
+          "type": "null",
+          "title": "The Biospecimen_anatomic_site_uberon_id Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        },
+        "hours_to_sample_procurement": {
+          "$id": "/properties/sample/properties/hours_to_sample_procurement",
+          "type": "null",
+          "title": "The Hours_to_sample_procurement Schema ",
+          "default": null,
+          "examples": [
+            null
+          ]
+        }
+      }
+    },
+    "core_metadata": {
+      "$id": "/properties/core_metadata",
+      "type": "object",
+      "properties": {
+        "rights": {
+          "$id": "/properties/core_metadata/properties/rights",
+          "type": "string",
+          "title": "The Rights Schema ",
+          "default": "",
+          "examples": [
+            "open access"
+          ]
+        },
+        "description": {
+          "$id": "/properties/core_metadata/properties/description",
+          "type": "string",
+          "title": "The Description Schema ",
+          "default": "",
+          "examples": [
+            "Aligned reads for NWD319341 sample"
+          ]
+        },
+        "data_type": {
+          "$id": "/properties/core_metadata/properties/data_type",
+          "type": "string",
+          "title": "The Data_type Schema ",
+          "default": "",
+          "examples": [
+            "WGS"
+          ]
+        },
+        "creator": {
+          "$id": "/properties/core_metadata/properties/creator",
+          "type": "string",
+          "title": "The Creator Schema ",
+          "default": "",
+          "examples": [
+            "Francisco Ortuno"
+          ]
+        },
+        "language": {
+          "$id": "/properties/core_metadata/properties/language",
+          "type": "string",
+          "title": "The Language Schema ",
+          "default": "",
+          "examples": [
+            "en-US"
+          ]
+        },
+        "format": {
+          "$id": "/properties/core_metadata/properties/format",
+          "type": "string",
+          "title": "The Format Schema ",
+          "default": "",
+          "examples": [
+            "CRAM"
+          ]
+        },
+        "submitter_id": {
+          "$id": "/properties/core_metadata/properties/submitter_id",
+          "type": "string",
+          "title": "The Submitter_id Schema ",
+          "default": "",
+          "examples": [
+            "NWD319341-cram-core-metadata"
+          ]
+        },
+        "date": {
+          "$id": "/properties/core_metadata/properties/date",
+          "type": "string",
+          "title": "The Date Schema ",
+          "default": "",
+          "examples": [
+            "04/13/18"
+          ]
+        },
+        "relation": {
+          "$id": "/properties/core_metadata/properties/relation",
+          "type": "string",
+          "title": "The Relation Schema ",
+          "default": "",
+          "examples": [
+            "Uchicago"
+          ]
+        },
+        "source": {
+          "$id": "/properties/core_metadata/properties/source",
+          "type": "string",
+          "title": "The Source Schema ",
+          "default": "",
+          "examples": [
+            "HapMap"
+          ]
+        },
+        "coverage": {
+          "$id": "/properties/core_metadata/properties/coverage",
+          "type": "string",
+          "title": "The Coverage Schema ",
+          "default": "",
+          "examples": [
+            "US"
+          ]
+        },
+        "contributor": {
+          "$id": "/properties/core_metadata/properties/contributor",
+          "type": "string",
+          "title": "The Contributor Schema ",
+          "default": "",
+          "examples": [
+            "Broad"
+          ]
+        },
+        "title": {
+          "$id": "/properties/core_metadata/properties/title",
+          "type": "string",
+          "title": "The Title Schema ",
+          "default": "",
+          "examples": [
+            "NWD319341 CRAM File"
+          ]
+        },
+        "project_id": {
+          "$id": "/properties/core_metadata/properties/project_id",
+          "type": "string",
+          "title": "The Project_id Schema ",
+          "default": "",
+          "examples": [
+            "topmed-public"
+          ]
+        },
+        "subject": {
+          "$id": "/properties/core_metadata/properties/subject",
+          "type": "string",
+          "title": "The Subject Schema ",
+          "default": "",
+          "examples": [
+            "sequencing"
+          ]
+        }
+      }
+    }
+  }
+}
+
