@@ -1,0 +1,692 @@
+{
+  "$id": "https://raw.githubusercontent.com/DataBiosphere/metadata-schema/master/json_schema/cgp/gen3/1.0.0/cgp_gen3_metadata.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://example.com/example.json/items",
+    "type": "object",
+    "properties": {
+      "metadata": {
+        "$id": "http://example.com/example.json/items/properties/metadata",
+        "type": "object",
+        "properties": {
+          "aligned_reads_index": {
+            "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index",
+            "type": "object",
+            "properties": {
+              "data_category": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/data_category",
+                "type": "string"
+              },
+              "data_format": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/data_format",
+                "type": "string"
+              },
+              "data_type": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/data_type",
+                "type": "string"
+              },
+              "file_name": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/file_name",
+                "type": "string"
+              },
+              "file_size": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/file_size",
+                "type": "integer"
+              },
+              "label": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/label",
+                "type": "string"
+              },
+              "link_fields": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/link_fields",
+                "type": "object",
+                "properties": {
+                  "aligned_reads_files.id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/link_fields/properties/aligned_reads_files.id",
+                    "type": "string"
+                  },
+                  "aligned_reads_files.submitter_id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/link_fields/properties/aligned_reads_files.submitter_id",
+                    "type": "string"
+                  },
+                  "core_metadata_records.id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/link_fields/properties/core_metadata_records.id",
+                    "type": "string"
+                  },
+                  "core_metadata_records.submitter_id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/link_fields/properties/core_metadata_records.submitter_id",
+                    "type": "string"
+                  },
+                  "submitted_aligned_reads_files.id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/link_fields/properties/submitted_aligned_reads_files.id",
+                    "type": "string"
+                  },
+                  "submitted_aligned_reads_files.submitter_id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/link_fields/properties/submitted_aligned_reads_files.submitter_id",
+                    "type": "string"
+                  }
+                }
+              },
+              "md5sum": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/md5sum",
+                "type": "string"
+              },
+              "node_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/node_id",
+                "type": "string"
+              },
+              "object_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/object_id",
+                "type": "string"
+              },
+              "project_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/project_id",
+                "type": "string"
+              },
+              "submitter_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aligned_reads_index/properties/submitter_id",
+                "type": "string"
+              }
+            }
+          },
+          "submitted_aligned_reads": {
+            "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads",
+            "type": "object",
+            "properties": {
+              "data_category": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/data_category",
+                "type": "string"
+              },
+              "data_format": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/data_format",
+                "type": "string"
+              },
+              "data_type": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/data_type",
+                "type": "string"
+              },
+              "experimental_strategy": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/experimental_strategy",
+                "type": "string"
+              },
+              "file_name": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/file_name",
+                "type": "string"
+              },
+              "file_size": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/file_size",
+                "type": "integer"
+              },
+              "label": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/label",
+                "type": "string"
+              },
+              "link_fields": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/link_fields",
+                "type": "object",
+                "properties": {
+                  "core_metadata_records.id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/link_fields/properties/core_metadata_records.id",
+                    "type": "string"
+                  },
+                  "core_metadata_records.submitter_id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/link_fields/properties/core_metadata_records.submitter_id",
+                    "type": "string"
+                  },
+                  "read_groups.id#1": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/link_fields/properties/read_groups.id#1",
+                    "type": "string"
+                  },
+                  "read_groups.submitter_id#1": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/link_fields/properties/read_groups.submitter_id#1",
+                    "type": "string"
+                  }
+                }
+              },
+              "md5sum": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/md5sum",
+                "type": "string"
+              },
+              "node_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/node_id",
+                "type": "string"
+              },
+              "object_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/object_id",
+                "type": "string"
+              },
+              "project_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/project_id",
+                "type": "string"
+              },
+              "submitter_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/submitted_aligned_reads/properties/submitter_id",
+                "type": "string"
+              }
+            }
+          },
+          "read_group": {
+            "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group",
+            "type": "object",
+            "properties": {
+              "RIN": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/RIN",
+                "type": "string"
+              },
+              "adapter_name": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/adapter_name",
+                "type": "string"
+              },
+              "adapter_sequence": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/adapter_sequence",
+                "type": "string"
+              },
+              "barcoding_applied": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/barcoding_applied",
+                "type": "string"
+              },
+              "base_caller_name": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/base_caller_name",
+                "type": "string"
+              },
+              "base_caller_version": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/base_caller_version",
+                "type": "string"
+              },
+              "experiment_name": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/experiment_name",
+                "type": "string"
+              },
+              "flow_cell_barcode": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/flow_cell_barcode",
+                "type": "string"
+              },
+              "includes_spike_ins": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/includes_spike_ins",
+                "type": "string"
+              },
+              "instrument_model": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/instrument_model",
+                "type": "string"
+              },
+              "is_paired_end": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/is_paired_end",
+                "type": "string"
+              },
+              "label": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/label",
+                "type": "string"
+              },
+              "library_name": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/library_name",
+                "type": "string"
+              },
+              "library_preparation_kit_catalog_number": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/library_preparation_kit_catalog_number",
+                "type": "string"
+              },
+              "library_preparation_kit_name": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/library_preparation_kit_name",
+                "type": "string"
+              },
+              "library_preparation_kit_vendor": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/library_preparation_kit_vendor",
+                "type": "string"
+              },
+              "library_preparation_kit_version": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/library_preparation_kit_version",
+                "type": "string"
+              },
+              "library_selection": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/library_selection",
+                "type": "string"
+              },
+              "library_strand": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/library_strand",
+                "type": "string"
+              },
+              "library_strategy": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/library_strategy",
+                "type": "string"
+              },
+              "link_fields": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/link_fields",
+                "type": "object",
+                "properties": {
+                  "aliquots.id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/link_fields/properties/aliquots.id",
+                    "type": "string"
+                  },
+                  "aliquots.submitter_id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/link_fields/properties/aliquots.submitter_id",
+                    "type": "string"
+                  }
+                }
+              },
+              "node_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/node_id",
+                "type": "string"
+              },
+              "platform": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/platform",
+                "type": "string"
+              },
+              "project_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/project_id",
+                "type": "string"
+              },
+              "read_group_name": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/read_group_name",
+                "type": "string"
+              },
+              "read_length": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/read_length",
+                "type": "string"
+              },
+              "sequencing_center": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/sequencing_center",
+                "type": "string"
+              },
+              "sequencing_date": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/sequencing_date",
+                "type": "string"
+              },
+              "size_selection_range": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/size_selection_range",
+                "type": "string"
+              },
+              "spike_ins_concentration": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/spike_ins_concentration",
+                "type": "string"
+              },
+              "spike_ins_fasta": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/spike_ins_fasta",
+                "type": "string"
+              },
+              "submitter_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/submitter_id",
+                "type": "string"
+              },
+              "target_capture_kit_catalog_number": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/target_capture_kit_catalog_number",
+                "type": "string"
+              },
+              "target_capture_kit_name": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/target_capture_kit_name",
+                "type": "string"
+              },
+              "target_capture_kit_target_region": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/target_capture_kit_target_region",
+                "type": "string"
+              },
+              "target_capture_kit_vendor": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/target_capture_kit_vendor",
+                "type": "string"
+              },
+              "target_capture_kit_version": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/target_capture_kit_version",
+                "type": "string"
+              },
+              "to_trim_adapter_sequence": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/read_group/properties/to_trim_adapter_sequence",
+                "type": "string"
+              }
+            }
+          },
+          "aliquot": {
+            "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot",
+            "type": "object",
+            "properties": {
+              "aliquot_quantity": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/aliquot_quantity",
+                "type": "string"
+              },
+              "aliquot_volume": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/aliquot_volume",
+                "type": "string"
+              },
+              "amount": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/amount",
+                "type": "string"
+              },
+              "analyte_isolation_batch_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/analyte_isolation_batch_id",
+                "type": "string"
+              },
+              "analyte_isolation_date": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/analyte_isolation_date",
+                "type": "string"
+              },
+              "analyte_isolation_method": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/analyte_isolation_method",
+                "type": "string"
+              },
+              "analyte_type": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/analyte_type",
+                "type": "string"
+              },
+              "concentration": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/concentration",
+                "type": "string"
+              },
+              "exclude": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/exclude",
+                "type": "string"
+              },
+              "exclusion_criteria": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/exclusion_criteria",
+                "type": "string"
+              },
+              "experiment_batch_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/experiment_batch_id",
+                "type": "string"
+              },
+              "experiment_date": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/experiment_date",
+                "type": "string"
+              },
+              "experimental_strategy": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/experimental_strategy",
+                "type": "string"
+              },
+              "label": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/label",
+                "type": "string"
+              },
+              "link_fields": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/link_fields",
+                "type": "object",
+                "properties": {
+                  "samples.id#1": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/link_fields/properties/samples.id#1",
+                    "type": "string"
+                  },
+                  "samples.submitter_id#1": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/link_fields/properties/samples.submitter_id#1",
+                    "type": "string"
+                  }
+                }
+              },
+              "node_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/node_id",
+                "type": "string"
+              },
+              "project_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/project_id",
+                "type": "string"
+              },
+              "submitter_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/aliquot/properties/submitter_id",
+                "type": "string"
+              }
+            }
+          },
+          "sample": {
+            "$id": "http://example.com/example.json/items/properties/metadata/properties/sample",
+            "type": "object",
+            "properties": {
+              "autolysis_score": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/autolysis_score",
+                "type": "string"
+              },
+              "biospecimen_anatomic_site": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/biospecimen_anatomic_site",
+                "type": "string"
+              },
+              "biospecimen_anatomic_site_detail": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/biospecimen_anatomic_site_detail",
+                "type": "string"
+              },
+              "biospecimen_anatomic_site_uberon_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/biospecimen_anatomic_site_uberon_id",
+                "type": "string"
+              },
+              "biospecimen_anatomic_site_uberon_term": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/biospecimen_anatomic_site_uberon_term",
+                "type": "string"
+              },
+              "biospecimen_physical_site": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/biospecimen_physical_site",
+                "type": "string"
+              },
+              "biospecimen_type": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/biospecimen_type",
+                "type": "string"
+              },
+              "collection_kit": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/collection_kit",
+                "type": "string"
+              },
+              "collection_site": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/collection_site",
+                "type": "string"
+              },
+              "composition": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/composition",
+                "type": "string"
+              },
+              "current_weight": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/current_weight",
+                "type": "string"
+              },
+              "freezing_method": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/freezing_method",
+                "type": "string"
+              },
+              "hours_to_collection": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/hours_to_collection",
+                "type": "string"
+              },
+              "hours_to_sample_procurement": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/hours_to_sample_procurement",
+                "type": "string"
+              },
+              "internal_notes": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/internal_notes",
+                "type": "string"
+              },
+              "is_ffpe": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/is_ffpe",
+                "type": "string"
+              },
+              "label": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/label",
+                "type": "string"
+              },
+              "link_fields": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/link_fields",
+                "type": "object",
+                "properties": {
+                  "cases.id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/link_fields/properties/cases.id",
+                    "type": "string"
+                  },
+                  "cases.submitter_id": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/link_fields/properties/cases.submitter_id",
+                    "type": "string"
+                  }
+                }
+              },
+              "method_of_sample_procurement": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/method_of_sample_procurement",
+                "type": "string"
+              },
+              "node_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/node_id",
+                "type": "string"
+              },
+              "oct_embedded": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/oct_embedded",
+                "type": "string"
+              },
+              "pathology_notes": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/pathology_notes",
+                "type": "string"
+              },
+              "preservation_method": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/preservation_method",
+                "type": "string"
+              },
+              "project_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/project_id",
+                "type": "string"
+              },
+              "prosector_notes": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/prosector_notes",
+                "type": "string"
+              },
+              "sample_type": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/sample_type",
+                "type": "string"
+              },
+              "submitter_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/submitter_id",
+                "type": "string"
+              },
+              "tissue_type": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/sample/properties/tissue_type",
+                "type": "string"
+              }
+            }
+          },
+          "case": {
+            "$id": "http://example.com/example.json/items/properties/metadata/properties/case",
+            "type": "object",
+            "properties": {
+              "amputation_type": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/amputation_type",
+                "type": "string"
+              },
+              "cohort_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/cohort_id",
+                "type": "string"
+              },
+              "eligibility": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/eligibility",
+                "type": "string"
+              },
+              "index_date": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/index_date",
+                "type": "string"
+              },
+              "label": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/label",
+                "type": "string"
+              },
+              "link_fields": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/link_fields",
+                "type": "object",
+                "properties": {
+                  "studies.id#1": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/link_fields/properties/studies.id#1",
+                    "type": "string"
+                  },
+                  "studies.submitter_id#1": {
+                    "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/link_fields/properties/studies.submitter_id#1",
+                    "type": "string"
+                  }
+                }
+              },
+              "node_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/node_id",
+                "type": "string"
+              },
+              "project_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/project_id",
+                "type": "string"
+              },
+              "site": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/site",
+                "type": "string"
+              },
+              "submitter_id": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/submitter_id",
+                "type": "string"
+              },
+              "transplanted_organ": {
+                "$id": "http://example.com/example.json/items/properties/metadata/properties/case/properties/transplanted_organ",
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "manifest": {
+        "$id": "http://example.com/example.json/items/properties/manifest",
+        "type": "array",
+        "items": {
+          "$id": "http://example.com/example.json/items/properties/manifest/items",
+          "type": "object",
+          "properties": {
+            "checksums": {
+              "$id": "http://example.com/example.json/items/properties/manifest/items/properties/checksums",
+              "type": "array",
+              "items": {
+                "$id": "http://example.com/example.json/items/properties/manifest/items/properties/checksums/items",
+                "type": "object",
+                "properties": {
+                  "checksum": {
+                    "$id": "http://example.com/example.json/items/properties/manifest/items/properties/checksums/items/properties/checksum",
+                    "type": "string"
+                  },
+                  "type": {
+                    "$id": "http://example.com/example.json/items/properties/manifest/items/properties/checksums/items/properties/type",
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "created": {
+              "$id": "http://example.com/example.json/items/properties/manifest/items/properties/created",
+              "type": "string"
+            },
+            "id": {
+              "$id": "http://example.com/example.json/items/properties/manifest/items/properties/id",
+              "type": "string"
+            },
+            "name": {
+              "$id": "http://example.com/example.json/items/properties/manifest/items/properties/name",
+              "type": "string"
+            },
+            "size": {
+              "$id": "http://example.com/example.json/items/properties/manifest/items/properties/size",
+              "type": "string"
+            },
+            "updated": {
+              "$id": "http://example.com/example.json/items/properties/manifest/items/properties/updated",
+              "type": "string"
+            },
+            "urls": {
+              "$id": "http://example.com/example.json/items/properties/manifest/items/properties/urls",
+              "type": "array",
+              "items": {
+                "$id": "http://example.com/example.json/items/properties/manifest/items/properties/urls/items",
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "$id": "http://example.com/example.json/items/properties/manifest/items/properties/urls/items/properties/url",
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "version": {
+              "$id": "http://example.com/example.json/items/properties/manifest/items/properties/version",
+              "type": "string"
+            },
+            "updated_datetime": {
+              "$id": "http://example.com/example.json/items/properties/manifest/items/properties/updated_datetime",
+              "type": "string"
+            }
+          }
+        }
+      },
+      "bundle_did": {
+        "$id": "http://example.com/example.json/items/properties/bundle_did",
+        "type": "string"
+      }
+    }
+  }
+}
