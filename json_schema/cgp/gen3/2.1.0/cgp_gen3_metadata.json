@@ -1,0 +1,776 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/DataBiosphere/metadata-schema/master/json_schema/cgp/gen3/2.1.0/cgp_gen3_metadata.json",
+  "type": "object",
+  "properties": {
+    "aligned_reads_index": {
+      "$id": "#/properties/aligned_reads_index",
+      "type": "object",
+      "properties": {
+        "data_format": {
+          "$id": "#/properties/aligned_reads_index/properties/data_format",
+          "type": "string"
+        },
+        "data_type": {
+          "$id": "#/properties/aligned_reads_index/properties/data_type",
+          "type": "string"
+        },
+        "link_fields": {
+          "$id": "#/properties/aligned_reads_index/properties/link_fields",
+          "type": "object",
+          "properties": {
+            "core_metadata_collections.submitter_id#1": {
+              "$id": "#/properties/aligned_reads_index/properties/link_fields/properties/core_metadata_collections.submitter_id#1",
+              "type": "string"
+            },
+            "submitted_aligned_reads_files.submitter_id": {
+              "$id": "#/properties/aligned_reads_index/properties/link_fields/properties/submitted_aligned_reads_files.submitter_id",
+              "type": "string"
+            },
+            "submitted_aligned_reads_files.id": {
+              "$id": "#/properties/aligned_reads_index/properties/link_fields/properties/submitted_aligned_reads_files.id",
+              "type": "string"
+            },
+            "aligned_reads_files.id": {
+              "$id": "#/properties/aligned_reads_index/properties/link_fields/properties/aligned_reads_files.id",
+              "type": "string"
+            },
+            "aligned_reads_files.submitter_id": {
+              "$id": "#/properties/aligned_reads_index/properties/link_fields/properties/aligned_reads_files.submitter_id",
+              "type": "string"
+            },
+            "core_metadata_collections.id#1": {
+              "$id": "#/properties/aligned_reads_index/properties/link_fields/properties/core_metadata_collections.id#1",
+              "type": "string"
+            }
+          }
+        },
+        "file_name": {
+          "$id": "#/properties/aligned_reads_index/properties/file_name",
+          "type": "string"
+        },
+        "md5sum": {
+          "$id": "#/properties/aligned_reads_index/properties/md5sum",
+          "type": "string"
+        },
+        "label": {
+          "$id": "#/properties/aligned_reads_index/properties/label",
+          "type": "string"
+        },
+        "object_id": {
+          "$id": "#/properties/aligned_reads_index/properties/object_id",
+          "type": "string"
+        },
+        "submitter_id": {
+          "$id": "#/properties/aligned_reads_index/properties/submitter_id",
+          "type": "string"
+        },
+        "node_id": {
+          "$id": "#/properties/aligned_reads_index/properties/node_id",
+          "type": "string"
+        },
+        "data_category": {
+          "$id": "#/properties/aligned_reads_index/properties/data_category",
+          "type": "string"
+        },
+        "file_size": {
+          "$id": "#/properties/aligned_reads_index/properties/file_size",
+          "type": "string"
+        },
+        "project_id": {
+          "$id": "#/properties/aligned_reads_index/properties/project_id",
+          "type": "string"
+        }
+      }
+    },
+    "submitted_aligned_reads": {
+      "$id": "#/properties/submitted_aligned_reads",
+      "type": "object",
+      "properties": {
+        "data_format": {
+          "$id": "#/properties/submitted_aligned_reads/properties/data_format",
+          "type": "string"
+        },
+        "data_type": {
+          "$id": "#/properties/submitted_aligned_reads/properties/data_type",
+          "type": "string"
+        },
+        "link_fields": {
+          "$id": "#/properties/submitted_aligned_reads/properties/link_fields",
+          "type": "object",
+          "properties": {
+            "core_metadata_collections.id#1": {
+              "$id": "#/properties/submitted_aligned_reads/properties/link_fields/properties/core_metadata_collections.id#1",
+              "type": "string"
+            },
+            "read_groups.id#1": {
+              "$id": "#/properties/submitted_aligned_reads/properties/link_fields/properties/read_groups.id#1",
+              "type": "string"
+            },
+            "read_groups.submitter_id#1": {
+              "$id": "#/properties/submitted_aligned_reads/properties/link_fields/properties/read_groups.submitter_id#1",
+              "type": "string"
+            },
+            "core_metadata_collections.submitter_id#1": {
+              "$id": "#/properties/submitted_aligned_reads/properties/link_fields/properties/core_metadata_collections.submitter_id#1",
+              "type": "string"
+            }
+          }
+        },
+        "file_name": {
+          "$id": "#/properties/submitted_aligned_reads/properties/file_name",
+          "type": "string"
+        },
+        "md5sum": {
+          "$id": "#/properties/submitted_aligned_reads/properties/md5sum",
+          "type": "string"
+        },
+        "label": {
+          "$id": "#/properties/submitted_aligned_reads/properties/label",
+          "type": "string"
+        },
+        "object_id": {
+          "$id": "#/properties/submitted_aligned_reads/properties/object_id",
+          "type": "string"
+        },
+        "submitter_id": {
+          "$id": "#/properties/submitted_aligned_reads/properties/submitter_id",
+          "type": "string"
+        },
+        "node_id": {
+          "$id": "#/properties/submitted_aligned_reads/properties/node_id",
+          "type": "string"
+        },
+        "data_category": {
+          "$id": "#/properties/submitted_aligned_reads/properties/data_category",
+          "type": "string"
+        },
+        "file_size": {
+          "$id": "#/properties/submitted_aligned_reads/properties/file_size",
+          "type": "string"
+        },
+        "project_id": {
+          "$id": "#/properties/submitted_aligned_reads/properties/project_id",
+          "type": "string"
+        },
+        "experimental_strategy": {
+          "$id": "#/properties/submitted_aligned_reads/properties/experimental_strategy",
+          "type": "string"
+        }
+      }
+    },
+    "read_group": {
+      "$id": "#/properties/read_group",
+      "type": "object",
+      "properties": {
+        "library_name": {
+          "$id": "#/properties/read_group/properties/library_name",
+          "type": "string"
+        },
+        "is_paired_end": {
+          "$id": "#/properties/read_group/properties/is_paired_end",
+          "type": "string"
+        },
+        "size_selection_range": {
+          "$id": "#/properties/read_group/properties/size_selection_range",
+          "type": "string"
+        },
+        "adapter_sequence": {
+          "$id": "#/properties/read_group/properties/adapter_sequence",
+          "type": "string"
+        },
+        "library_strand": {
+          "$id": "#/properties/read_group/properties/library_strand",
+          "type": "string"
+        },
+        "to_trim_adapter_sequence": {
+          "$id": "#/properties/read_group/properties/to_trim_adapter_sequence",
+          "type": "string"
+        },
+        "submitter_id": {
+          "$id": "#/properties/read_group/properties/submitter_id",
+          "type": "string"
+        },
+        "library_preparation_kit_name": {
+          "$id": "#/properties/read_group/properties/library_preparation_kit_name",
+          "type": "string"
+        },
+        "adapter_name": {
+          "$id": "#/properties/read_group/properties/adapter_name",
+          "type": "string"
+        },
+        "target_capture_kit_name": {
+          "$id": "#/properties/read_group/properties/target_capture_kit_name",
+          "type": "string"
+        },
+        "includes_spike_ins": {
+          "$id": "#/properties/read_group/properties/includes_spike_ins",
+          "type": "string"
+        },
+        "library_preparation_kit_version": {
+          "$id": "#/properties/read_group/properties/library_preparation_kit_version",
+          "type": "string"
+        },
+        "barcoding_applied": {
+          "$id": "#/properties/read_group/properties/barcoding_applied",
+          "type": "string"
+        },
+        "target_capture_kit_vendor": {
+          "$id": "#/properties/read_group/properties/target_capture_kit_vendor",
+          "type": "string"
+        },
+        "read_length": {
+          "$id": "#/properties/read_group/properties/read_length",
+          "type": "string"
+        },
+        "sequencing_date": {
+          "$id": "#/properties/read_group/properties/sequencing_date",
+          "type": "string"
+        },
+        "spike_ins_fasta": {
+          "$id": "#/properties/read_group/properties/spike_ins_fasta",
+          "type": "string"
+        },
+        "label": {
+          "$id": "#/properties/read_group/properties/label",
+          "type": "string"
+        },
+        "RIN": {
+          "$id": "#/properties/read_group/properties/RIN",
+          "type": "string"
+        },
+        "platform": {
+          "$id": "#/properties/read_group/properties/platform",
+          "type": "string"
+        },
+        "spike_ins_concentration": {
+          "$id": "#/properties/read_group/properties/spike_ins_concentration",
+          "type": "string"
+        },
+        "library_selection": {
+          "$id": "#/properties/read_group/properties/library_selection",
+          "type": "string"
+        },
+        "project_id": {
+          "$id": "#/properties/read_group/properties/project_id",
+          "type": "string"
+        },
+        "library_preparation_kit_catalog_number": {
+          "$id": "#/properties/read_group/properties/library_preparation_kit_catalog_number",
+          "type": "string"
+        },
+        "link_fields": {
+          "$id": "#/properties/read_group/properties/link_fields",
+          "type": "object",
+          "properties": {
+            "aliquots.id": {
+              "$id": "#/properties/read_group/properties/link_fields/properties/aliquots.id",
+              "type": "string"
+            },
+            "aliquots.submitter_id": {
+              "$id": "#/properties/read_group/properties/link_fields/properties/aliquots.submitter_id",
+              "type": "string"
+            }
+          }
+        },
+        "target_capture_kit_target_region": {
+          "$id": "#/properties/read_group/properties/target_capture_kit_target_region",
+          "type": "string"
+        },
+        "target_capture_kit_version": {
+          "$id": "#/properties/read_group/properties/target_capture_kit_version",
+          "type": "string"
+        },
+        "node_id": {
+          "$id": "#/properties/read_group/properties/node_id",
+          "type": "string"
+        },
+        "read_group_name": {
+          "$id": "#/properties/read_group/properties/read_group_name",
+          "type": "string"
+        },
+        "library_preparation_kit_vendor": {
+          "$id": "#/properties/read_group/properties/library_preparation_kit_vendor",
+          "type": "string"
+        },
+        "library_strategy": {
+          "$id": "#/properties/read_group/properties/library_strategy",
+          "type": "string"
+        },
+        "target_capture_kit_catalog_number": {
+          "$id": "#/properties/read_group/properties/target_capture_kit_catalog_number",
+          "type": "string"
+        },
+        "instrument_model": {
+          "$id": "#/properties/read_group/properties/instrument_model",
+          "type": "string"
+        },
+        "base_caller_name": {
+          "$id": "#/properties/read_group/properties/base_caller_name",
+          "type": "string"
+        },
+        "experiment_name": {
+          "$id": "#/properties/read_group/properties/experiment_name",
+          "type": "string"
+        },
+        "flow_cell_barcode": {
+          "$id": "#/properties/read_group/properties/flow_cell_barcode",
+          "type": "string"
+        },
+        "sequencing_center": {
+          "$id": "#/properties/read_group/properties/sequencing_center",
+          "type": "string"
+        },
+        "base_caller_version": {
+          "$id": "#/properties/read_group/properties/base_caller_version",
+          "type": "string"
+        }
+      }
+    },
+    "aliquot": {
+      "$id": "#/properties/aliquot",
+      "type": "object",
+      "properties": {
+        "aliquot_quantity": {
+          "$id": "#/properties/aliquot/properties/aliquot_quantity",
+          "type": "string"
+        },
+        "aliquot_volume": {
+          "$id": "#/properties/aliquot/properties/aliquot_volume",
+          "type": "string"
+        },
+        "link_fields": {
+          "$id": "#/properties/aliquot/properties/link_fields",
+          "type": "object",
+          "properties": {
+            "samples.submitter_id#1": {
+              "$id": "#/properties/aliquot/properties/link_fields/properties/samples.submitter_id#1",
+              "type": "string"
+            },
+            "samples.id#1": {
+              "$id": "#/properties/aliquot/properties/link_fields/properties/samples.id#1",
+              "type": "string"
+            }
+          }
+        },
+        "analyte_isolation_batch_id": {
+          "$id": "#/properties/aliquot/properties/analyte_isolation_batch_id",
+          "type": "string"
+        },
+        "experimental_strategy": {
+          "$id": "#/properties/aliquot/properties/experimental_strategy",
+          "type": "string"
+        },
+        "experiment_date": {
+          "$id": "#/properties/aliquot/properties/experiment_date",
+          "type": "string"
+        },
+        "analyte_isolation_date": {
+          "$id": "#/properties/aliquot/properties/analyte_isolation_date",
+          "type": "string"
+        },
+        "label": {
+          "$id": "#/properties/aliquot/properties/label",
+          "type": "string"
+        },
+        "submitter_id": {
+          "$id": "#/properties/aliquot/properties/submitter_id",
+          "type": "string"
+        },
+        "amount": {
+          "$id": "#/properties/aliquot/properties/amount",
+          "type": "string"
+        },
+        "node_id": {
+          "$id": "#/properties/aliquot/properties/node_id",
+          "type": "string"
+        },
+        "analyte_isolation_method": {
+          "$id": "#/properties/aliquot/properties/analyte_isolation_method",
+          "type": "string"
+        },
+        "analyte_type": {
+          "$id": "#/properties/aliquot/properties/analyte_type",
+          "type": "string"
+        },
+        "exclude": {
+          "$id": "#/properties/aliquot/properties/exclude",
+          "type": "string"
+        },
+        "concentration": {
+          "$id": "#/properties/aliquot/properties/concentration",
+          "type": "string"
+        },
+        "project_id": {
+          "$id": "#/properties/aliquot/properties/project_id",
+          "type": "string"
+        },
+        "exclusion_criteria": {
+          "$id": "#/properties/aliquot/properties/exclusion_criteria",
+          "type": "string"
+        },
+        "experiment_batch_id": {
+          "$id": "#/properties/aliquot/properties/experiment_batch_id",
+          "type": "string"
+        }
+      }
+    },
+    "sample": {
+      "$id": "#/properties/sample",
+      "type": "object",
+      "properties": {
+        "pathology_notes": {
+          "$id": "#/properties/sample/properties/pathology_notes",
+          "type": "string"
+        },
+        "biospecimen_anatomic_site": {
+          "$id": "#/properties/sample/properties/biospecimen_anatomic_site",
+          "type": "string"
+        },
+        "internal_notes": {
+          "$id": "#/properties/sample/properties/internal_notes",
+          "type": "string"
+        },
+        "submitter_id": {
+          "$id": "#/properties/sample/properties/submitter_id",
+          "type": "string"
+        },
+        "hours_to_collection": {
+          "$id": "#/properties/sample/properties/hours_to_collection",
+          "type": "string"
+        },
+        "prosector_notes": {
+          "$id": "#/properties/sample/properties/prosector_notes",
+          "type": "string"
+        },
+        "autolysis_score": {
+          "$id": "#/properties/sample/properties/autolysis_score",
+          "type": "string"
+        },
+        "collection_kit": {
+          "$id": "#/properties/sample/properties/collection_kit",
+          "type": "string"
+        },
+        "biospecimen_anatomic_site_detail": {
+          "$id": "#/properties/sample/properties/biospecimen_anatomic_site_detail",
+          "type": "string"
+        },
+        "biospecimen_anatomic_site_uberon_term": {
+          "$id": "#/properties/sample/properties/biospecimen_anatomic_site_uberon_term",
+          "type": "string"
+        },
+        "sample_type": {
+          "$id": "#/properties/sample/properties/sample_type",
+          "type": "string"
+        },
+        "label": {
+          "$id": "#/properties/sample/properties/label",
+          "type": "string"
+        },
+        "project_id": {
+          "$id": "#/properties/sample/properties/project_id",
+          "type": "string"
+        },
+        "current_weight": {
+          "$id": "#/properties/sample/properties/current_weight",
+          "type": "string"
+        },
+        "composition": {
+          "$id": "#/properties/sample/properties/composition",
+          "type": "string"
+        },
+        "oct_embedded": {
+          "$id": "#/properties/sample/properties/oct_embedded",
+          "type": "string"
+        },
+        "is_ffpe": {
+          "$id": "#/properties/sample/properties/is_ffpe",
+          "type": "string"
+        },
+        "link_fields": {
+          "$id": "#/properties/sample/properties/link_fields",
+          "type": "object",
+          "properties": {
+            "cases.id": {
+              "$id": "#/properties/sample/properties/link_fields/properties/cases.id",
+              "type": "string"
+            },
+            "cases.submitter_id": {
+              "$id": "#/properties/sample/properties/link_fields/properties/cases.submitter_id",
+              "type": "string"
+            }
+          }
+        },
+        "method_of_sample_procurement": {
+          "$id": "#/properties/sample/properties/method_of_sample_procurement",
+          "type": "string"
+        },
+        "node_id": {
+          "$id": "#/properties/sample/properties/node_id",
+          "type": "string"
+        },
+        "collection_site": {
+          "$id": "#/properties/sample/properties/collection_site",
+          "type": "string"
+        },
+        "freezing_method": {
+          "$id": "#/properties/sample/properties/freezing_method",
+          "type": "string"
+        },
+        "biospecimen_physical_site": {
+          "$id": "#/properties/sample/properties/biospecimen_physical_site",
+          "type": "string"
+        },
+        "biospecimen_type": {
+          "$id": "#/properties/sample/properties/biospecimen_type",
+          "type": "string"
+        },
+        "preservation_method": {
+          "$id": "#/properties/sample/properties/preservation_method",
+          "type": "string"
+        },
+        "tissue_type": {
+          "$id": "#/properties/sample/properties/tissue_type",
+          "type": "string"
+        },
+        "biospecimen_anatomic_site_uberon_id": {
+          "$id": "#/properties/sample/properties/biospecimen_anatomic_site_uberon_id",
+          "type": "string"
+        },
+        "hours_to_sample_procurement": {
+          "$id": "#/properties/sample/properties/hours_to_sample_procurement",
+          "type": "string"
+        }
+      }
+    },
+    "case": {
+      "$id": "#/properties/case",
+      "type": "object",
+      "properties": {
+        "link_fields": {
+          "$id": "#/properties/case/properties/link_fields",
+          "type": "object",
+          "properties": {
+            "studies.id#1": {
+              "$id": "#/properties/case/properties/link_fields/properties/studies.id#1",
+              "type": "string"
+            },
+            "studies.submitter_id#1": {
+              "$id": "#/properties/case/properties/link_fields/properties/studies.submitter_id#1",
+              "type": "string"
+            }
+          }
+        },
+        "cohort_id": {
+          "$id": "#/properties/case/properties/cohort_id",
+          "type": "string"
+        },
+        "index_date": {
+          "$id": "#/properties/case/properties/index_date",
+          "type": "string"
+        },
+        "label": {
+          "$id": "#/properties/case/properties/label",
+          "type": "string"
+        },
+        "submitter_id": {
+          "$id": "#/properties/case/properties/submitter_id",
+          "type": "string"
+        },
+        "consent_codes": {
+          "$id": "#/properties/case/properties/consent_codes",
+          "type": "string"
+        },
+        "eligibility": {
+          "$id": "#/properties/case/properties/eligibility",
+          "type": "string"
+        },
+        "node_id": {
+          "$id": "#/properties/case/properties/node_id",
+          "type": "string"
+        },
+        "transplanted_organ": {
+          "$id": "#/properties/case/properties/transplanted_organ",
+          "type": "string"
+        },
+        "site": {
+          "$id": "#/properties/case/properties/site",
+          "type": "string"
+        },
+        "project_id": {
+          "$id": "#/properties/case/properties/project_id",
+          "type": "string"
+        },
+        "amputation_type": {
+          "$id": "#/properties/case/properties/amputation_type",
+          "type": "string"
+        }
+      }
+    },
+    "study": {
+      "$id": "#/properties/study",
+      "type": "object",
+      "properties": {
+        "data_description": {
+          "$id": "#/properties/study/properties/data_description",
+          "type": "string"
+        },
+        "link_fields": {
+          "$id": "#/properties/study/properties/link_fields",
+          "type": "object",
+          "properties": {
+            "projects.id": {
+              "$id": "#/properties/study/properties/link_fields/properties/projects.id",
+              "type": "string"
+            },
+            "projects.code": {
+              "$id": "#/properties/study/properties/link_fields/properties/projects.code",
+              "type": "string"
+            }
+          }
+        },
+        "study_description": {
+          "$id": "#/properties/study/properties/study_description",
+          "type": "string"
+        },
+        "label": {
+          "$id": "#/properties/study/properties/label",
+          "type": "string"
+        },
+        "submitter_id": {
+          "$id": "#/properties/study/properties/submitter_id",
+          "type": "string"
+        },
+        "node_id": {
+          "$id": "#/properties/study/properties/node_id",
+          "type": "string"
+        },
+        "type_of_data": {
+          "$id": "#/properties/study/properties/type_of_data",
+          "type": "string"
+        },
+        "study_setup": {
+          "$id": "#/properties/study/properties/study_setup",
+          "type": "string"
+        },
+        "project_id": {
+          "$id": "#/properties/study/properties/project_id",
+          "type": "string"
+        }
+      }
+    },
+    "demographic": {
+      "$id": "#/properties/demographic",
+      "type": "object",
+      "properties": {
+        "age_range": {
+          "$id": "#/properties/demographic/properties/age_range",
+          "type": "string"
+        },
+        "weight": {
+          "$id": "#/properties/demographic/properties/weight",
+          "type": "integer"
+        },
+        "bmi_category": {
+          "$id": "#/properties/demographic/properties/bmi_category",
+          "type": "string"
+        },
+        "submitter_id": {
+          "$id": "#/properties/demographic/properties/submitter_id",
+          "type": "string"
+        },
+        "ethnicity": {
+          "$id": "#/properties/demographic/properties/ethnicity",
+          "type": "string"
+        },
+        "girth_protocol_modification": {
+          "$id": "#/properties/demographic/properties/girth_protocol_modification",
+          "type": "string"
+        },
+        "label": {
+          "$id": "#/properties/demographic/properties/label",
+          "type": "string"
+        },
+        "height_protocol_modification": {
+          "$id": "#/properties/demographic/properties/height_protocol_modification",
+          "type": "string"
+        },
+        "hip_circumference": {
+          "$id": "#/properties/demographic/properties/hip_circumference",
+          "type": "string"
+        },
+        "project_id": {
+          "$id": "#/properties/demographic/properties/project_id",
+          "type": "string"
+        },
+        "weight_protocol_modification": {
+          "$id": "#/properties/demographic/properties/weight_protocol_modification",
+          "type": "string"
+        },
+        "link_fields": {
+          "$id": "#/properties/demographic/properties/link_fields",
+          "type": "object",
+          "properties": {
+            "cases.id": {
+              "$id": "#/properties/demographic/properties/link_fields/properties/cases.id",
+              "type": "string"
+            },
+            "cases.submitter_id": {
+              "$id": "#/properties/demographic/properties/link_fields/properties/cases.submitter_id",
+              "type": "string"
+            }
+          }
+        },
+        "bmi": {
+          "$id": "#/properties/demographic/properties/bmi",
+          "type": "number"
+        },
+        "year_of_birth": {
+          "$id": "#/properties/demographic/properties/year_of_birth",
+          "type": "string"
+        },
+        "node_id": {
+          "$id": "#/properties/demographic/properties/node_id",
+          "type": "string"
+        },
+        "height": {
+          "$id": "#/properties/demographic/properties/height",
+          "type": "integer"
+        },
+        "bsa": {
+          "$id": "#/properties/demographic/properties/bsa",
+          "type": "string"
+        },
+        "waist": {
+          "$id": "#/properties/demographic/properties/waist",
+          "type": "string"
+        },
+        "gender": {
+          "$id": "#/properties/demographic/properties/gender",
+          "type": "string"
+        },
+        "race": {
+          "$id": "#/properties/demographic/properties/race",
+          "type": "string"
+        },
+        "age_at_index": {
+          "$id": "#/properties/demographic/properties/age_at_index",
+          "type": "string"
+        },
+        "year_of_death": {
+          "$id": "#/properties/demographic/properties/year_of_death",
+          "type": "string"
+        }
+      }
+    },
+    "program": {
+      "$id": "#/properties/program",
+      "type": "string"
+    },
+    "project": {
+      "$id": "#/properties/project",
+      "type": "string"
+    }
+  }
+}
