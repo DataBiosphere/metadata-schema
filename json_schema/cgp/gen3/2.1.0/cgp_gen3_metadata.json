@@ -764,12 +764,12 @@
         }
       }
     },
-    "program": {
-      "$id": "#/properties/program",
-      "type": "string"
-    },
     "project": {
       "$id": "#/properties/project",
+      "type": "string"
+    },
+    "program": {
+      "$id": "#/properties/program",
       "type": "string"
     }
   }
