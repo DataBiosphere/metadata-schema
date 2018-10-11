@@ -1,7 +1,7 @@
 {
   "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/DataBiosphere/metadata-schema/master/json_schema/cgp/gen3/2.1.0/cgp_gen3_metadata.json",
+  "$id": "https://raw.githubusercontent.com/DataBiosphere/metadata-schema/master/json_schema/cgp/gen3/3.0.0/cgp_gen3_metadata.json",
   "type": "object",
   "properties": {
     "aligned_reads_index": {
