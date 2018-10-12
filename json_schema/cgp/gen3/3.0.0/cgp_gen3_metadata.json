@@ -474,7 +474,7 @@
         },
         "current_weight": {
           "$id": "#/properties/sample/properties/current_weight",
-          "type": "string"
+          "type": "number"
         },
         "composition": {
           "$id": "#/properties/sample/properties/composition",
@@ -580,11 +580,11 @@
         },
         "consent_codes": {
           "$id": "#/properties/case/properties/consent_codes",
-          "type": "string"
+          "type": "array"
         },
         "eligibility": {
           "$id": "#/properties/case/properties/eligibility",
-          "type": "string"
+          "type": "boolean"
         },
         "node_id": {
           "$id": "#/properties/case/properties/node_id",
@@ -670,7 +670,7 @@
         },
         "weight": {
           "$id": "#/properties/demographic/properties/weight",
-          "type": "integer"
+          "type": "number"
         },
         "bmi_category": {
           "$id": "#/properties/demographic/properties/bmi_category",
