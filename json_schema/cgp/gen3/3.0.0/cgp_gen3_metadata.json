@@ -170,7 +170,7 @@
         },
         "is_paired_end": {
           "$id": "#/properties/read_group/properties/is_paired_end",
-          "type": "boolean"
+          "type": "string"
         },
         "size_selection_range": {
           "$id": "#/properties/read_group/properties/size_selection_range",
@@ -186,7 +186,7 @@
         },
         "to_trim_adapter_sequence": {
           "$id": "#/properties/read_group/properties/to_trim_adapter_sequence",
-          "type": "boolean"
+          "type": "string"
         },
         "submitter_id": {
           "$id": "#/properties/read_group/properties/submitter_id",
@@ -206,7 +206,7 @@
         },
         "includes_spike_ins": {
           "$id": "#/properties/read_group/properties/includes_spike_ins",
-          "type": "boolean"
+          "type": "string"
         },
         "library_preparation_kit_version": {
           "$id": "#/properties/read_group/properties/library_preparation_kit_version",
@@ -214,7 +214,7 @@
         },
         "barcoding_applied": {
           "$id": "#/properties/read_group/properties/barcoding_applied",
-          "type": "boolean"
+          "type": "string"
         },
         "target_capture_kit_vendor": {
           "$id": "#/properties/read_group/properties/target_capture_kit_vendor",
@@ -222,7 +222,7 @@
         },
         "read_length": {
           "$id": "#/properties/read_group/properties/read_length",
-          "type": "integer"
+          "type": "string"
         },
         "sequencing_date": {
           "$id": "#/properties/read_group/properties/sequencing_date",
@@ -238,7 +238,7 @@
         },
         "RIN": {
           "$id": "#/properties/read_group/properties/RIN",
-          "type": "number"
+          "type": "string"
         },
         "platform": {
           "$id": "#/properties/read_group/properties/platform",
@@ -334,11 +334,11 @@
       "properties": {
         "aliquot_quantity": {
           "$id": "#/properties/aliquot/properties/aliquot_quantity",
-          "type": "number"
+          "type": "string"
         },
         "aliquot_volume": {
           "$id": "#/properties/aliquot/properties/aliquot_volume",
-          "type": "number"
+          "type": "string"
         },
         "link_fields": {
           "$id": "#/properties/aliquot/properties/link_fields",
@@ -380,7 +380,7 @@
         },
         "amount": {
           "$id": "#/properties/aliquot/properties/amount",
-          "type": "number"
+          "type": "string"
         },
         "node_id": {
           "$id": "#/properties/aliquot/properties/node_id",
@@ -396,11 +396,11 @@
         },
         "exclude": {
           "$id": "#/properties/aliquot/properties/exclude",
-          "type": "boolean"
+          "type": "string"
         },
         "concentration": {
           "$id": "#/properties/aliquot/properties/concentration",
-          "type": "number"
+          "type": "string"
         },
         "project_id": {
           "$id": "#/properties/aliquot/properties/project_id",
@@ -474,7 +474,7 @@
         },
         "current_weight": {
           "$id": "#/properties/sample/properties/current_weight",
-          "type": "number"
+          "type": "string"
         },
         "composition": {
           "$id": "#/properties/sample/properties/composition",
@@ -584,7 +584,7 @@
         },
         "eligibility": {
           "$id": "#/properties/case/properties/eligibility",
-          "type": "boolean"
+          "type": "string"
         },
         "node_id": {
           "$id": "#/properties/case/properties/node_id",
@@ -698,7 +698,7 @@
         },
         "hip_circumference": {
           "$id": "#/properties/demographic/properties/hip_circumference",
-          "type": "number"
+          "type": "string"
         },
         "project_id": {
           "$id": "#/properties/demographic/properties/project_id",
@@ -728,7 +728,7 @@
         },
         "year_of_birth": {
           "$id": "#/properties/demographic/properties/year_of_birth",
-          "type": "number"
+          "type": "string"
         },
         "node_id": {
           "$id": "#/properties/demographic/properties/node_id",
@@ -740,11 +740,11 @@
         },
         "bsa": {
           "$id": "#/properties/demographic/properties/bsa",
-          "type": "number"
+          "type": "string"
         },
         "waist": {
           "$id": "#/properties/demographic/properties/waist",
-          "type": "number"
+          "type": "string"
         },
         "gender": {
           "$id": "#/properties/demographic/properties/gender",
@@ -756,11 +756,11 @@
         },
         "age_at_index": {
           "$id": "#/properties/demographic/properties/age_at_index",
-          "type": "number"
+          "type": "string"
         },
         "year_of_death": {
           "$id": "#/properties/demographic/properties/year_of_death",
-          "type": "number"
+          "type": "string"
         }
       }
     },
@@ -810,11 +810,11 @@
         },
         "releasable": {
           "$id": "#/properties/project/properties/releasable",
-          "type": "boolean"
+          "type": "string"
         },
         "released": {
           "$id": "#/properties/project/properties/released",
-          "type": "boolean"
+          "type": "string"
         },
         "state": {
           "$id": "#/properties/project/properties/state",
