@@ -170,7 +170,7 @@
         },
         "is_paired_end": {
           "$id": "#/properties/read_group/properties/is_paired_end",
-          "type": "string"
+          "type": "boolean"
         },
         "size_selection_range": {
           "$id": "#/properties/read_group/properties/size_selection_range",
@@ -186,7 +186,7 @@
         },
         "to_trim_adapter_sequence": {
           "$id": "#/properties/read_group/properties/to_trim_adapter_sequence",
-          "type": "string"
+          "type": "boolean"
         },
         "submitter_id": {
           "$id": "#/properties/read_group/properties/submitter_id",
@@ -206,7 +206,7 @@
         },
         "includes_spike_ins": {
           "$id": "#/properties/read_group/properties/includes_spike_ins",
-          "type": "string"
+          "type": "boolean"
         },
         "library_preparation_kit_version": {
           "$id": "#/properties/read_group/properties/library_preparation_kit_version",
@@ -214,7 +214,7 @@
         },
         "barcoding_applied": {
           "$id": "#/properties/read_group/properties/barcoding_applied",
-          "type": "string"
+          "type": "boolean"
         },
         "target_capture_kit_vendor": {
           "$id": "#/properties/read_group/properties/target_capture_kit_vendor",
@@ -222,7 +222,7 @@
         },
         "read_length": {
           "$id": "#/properties/read_group/properties/read_length",
-          "type": "string"
+          "type": "integer"
         },
         "sequencing_date": {
           "$id": "#/properties/read_group/properties/sequencing_date",
@@ -238,7 +238,7 @@
         },
         "RIN": {
           "$id": "#/properties/read_group/properties/RIN",
-          "type": "string"
+          "type": "number"
         },
         "platform": {
           "$id": "#/properties/read_group/properties/platform",
@@ -334,11 +334,11 @@
       "properties": {
         "aliquot_quantity": {
           "$id": "#/properties/aliquot/properties/aliquot_quantity",
-          "type": "string"
+          "type": "number"
         },
         "aliquot_volume": {
           "$id": "#/properties/aliquot/properties/aliquot_volume",
-          "type": "string"
+          "type": "number"
         },
         "link_fields": {
           "$id": "#/properties/aliquot/properties/link_fields",
@@ -380,7 +380,7 @@
         },
         "amount": {
           "$id": "#/properties/aliquot/properties/amount",
-          "type": "string"
+          "type": "number"
         },
         "node_id": {
           "$id": "#/properties/aliquot/properties/node_id",
@@ -396,11 +396,11 @@
         },
         "exclude": {
           "$id": "#/properties/aliquot/properties/exclude",
-          "type": "string"
+          "type": "boolean"
         },
         "concentration": {
           "$id": "#/properties/aliquot/properties/concentration",
-          "type": "string"
+          "type": "number"
         },
         "project_id": {
           "$id": "#/properties/aliquot/properties/project_id",
