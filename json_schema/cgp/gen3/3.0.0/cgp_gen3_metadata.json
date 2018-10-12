@@ -580,7 +580,7 @@
         },
         "consent_codes": {
           "$id": "#/properties/case/properties/consent_codes",
-          "type": "array"
+          "type": "string"
         },
         "eligibility": {
           "$id": "#/properties/case/properties/eligibility",
