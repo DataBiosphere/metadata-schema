@@ -698,7 +698,7 @@
         },
         "hip_circumference": {
           "$id": "#/properties/demographic/properties/hip_circumference",
-          "type": "string"
+          "type": "number"
         },
         "project_id": {
           "$id": "#/properties/demographic/properties/project_id",
@@ -728,7 +728,7 @@
         },
         "year_of_birth": {
           "$id": "#/properties/demographic/properties/year_of_birth",
-          "type": "string"
+          "type": "number"
         },
         "node_id": {
           "$id": "#/properties/demographic/properties/node_id",
@@ -736,15 +736,15 @@
         },
         "height": {
           "$id": "#/properties/demographic/properties/height",
-          "type": "integer"
+          "type": "number"
         },
         "bsa": {
           "$id": "#/properties/demographic/properties/bsa",
-          "type": "string"
+          "type": "number"
         },
         "waist": {
           "$id": "#/properties/demographic/properties/waist",
-          "type": "string"
+          "type": "number"
         },
         "gender": {
           "$id": "#/properties/demographic/properties/gender",
@@ -756,11 +756,11 @@
         },
         "age_at_index": {
           "$id": "#/properties/demographic/properties/age_at_index",
-          "type": "string"
+          "type": "number"
         },
         "year_of_death": {
           "$id": "#/properties/demographic/properties/year_of_death",
-          "type": "string"
+          "type": "number"
         }
       }
     },
@@ -810,11 +810,11 @@
         },
         "releasable": {
           "$id": "#/properties/project/properties/releasable",
-          "type": "string"
+          "type": "boolean"
         },
         "released": {
           "$id": "#/properties/project/properties/released",
-          "type": "string"
+          "type": "boolean"
         },
         "state": {
           "$id": "#/properties/project/properties/state",
