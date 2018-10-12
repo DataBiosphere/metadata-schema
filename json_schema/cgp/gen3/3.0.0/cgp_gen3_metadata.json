@@ -766,11 +766,69 @@
     },
     "project": {
       "$id": "#/properties/project",
-      "type": "string"
-    },
-    "program": {
-      "$id": "#/properties/program",
-      "type": "string"
+      "type": "object",
+      "properties": {
+        "availability_mechanism": {
+          "$id": "#/properties/project/properties/availability_mechanism",
+          "type": "string"
+        },
+        "availability_type": {
+          "$id": "#/properties/project/properties/availability_type",
+          "type": "string"
+        },
+        "code": {
+          "$id": "#/properties/project/properties/code",
+          "type": "string"
+        },
+        "date_collected": {
+          "$id": "#/properties/project/properties/date_collected",
+          "type": "string"
+        },
+        "dbgap_accession_number": {
+          "$id": "#/properties/project/properties/dbgap_accession_number",
+          "type": "string"
+        },
+        "id": {
+          "$id": "#/properties/project/properties/id",
+          "type": "string"
+        },
+        "intended_release_date": {
+          "$id": "#/properties/project/properties/intended_release_date",
+          "type": "string"
+        },
+        "investigator_affiliation": {
+          "$id": "#/properties/project/properties/investigator_affiliation",
+          "type": "string"
+        },
+        "investigator_name": {
+          "$id": "#/properties/project/properties/investigator_name",
+          "type": "string"
+        },
+        "name": {
+          "$id": "#/properties/project/properties/name",
+          "type": "string"
+        },
+        "releasable": {
+          "$id": "#/properties/project/properties/releasable",
+          "type": "string"
+        },
+        "released": {
+          "$id": "#/properties/project/properties/released",
+          "type": "string"
+        },
+        "state": {
+          "$id": "#/properties/project/properties/state",
+          "type": "string"
+        },
+        "support_id": {
+          "$id": "#/properties/project/properties/support_id",
+          "type": "string"
+        },
+        "support_source": {
+          "$id": "#/properties/project/properties/support_source",
+          "type": "string"
+        }
+      }
     }
   }
 }
