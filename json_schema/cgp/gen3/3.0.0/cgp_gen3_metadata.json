@@ -148,7 +148,7 @@
         },
         "file_size": {
           "$id": "#/properties/submitted_aligned_reads/properties/file_size",
-          "type": "string"
+          "type": "integer"
         },
         "project_id": {
           "$id": "#/properties/submitted_aligned_reads/properties/project_id",
