@@ -438,7 +438,7 @@
         },
         "hours_to_collection": {
           "$id": "#/properties/sample/properties/hours_to_collection",
-          "type": "string"
+          "type": "integer"
         },
         "prosector_notes": {
           "$id": "#/properties/sample/properties/prosector_notes",
@@ -580,7 +580,7 @@
         },
         "consent_codes": {
           "$id": "#/properties/case/properties/consent_codes",
-          "type": "string"
+          "type": "array"
         },
         "eligibility": {
           "$id": "#/properties/case/properties/eligibility",
@@ -670,7 +670,7 @@
         },
         "weight": {
           "$id": "#/properties/demographic/properties/weight",
-          "type": "number"
+          "type": "integer"
         },
         "bmi_category": {
           "$id": "#/properties/demographic/properties/bmi_category",
@@ -736,7 +736,7 @@
         },
         "height": {
           "$id": "#/properties/demographic/properties/height",
-          "type": "number"
+          "type": "integer"
         },
         "bsa": {
           "$id": "#/properties/demographic/properties/bsa",
@@ -756,7 +756,7 @@
         },
         "age_at_index": {
           "$id": "#/properties/demographic/properties/age_at_index",
-          "type": "string"
+          "type": "integer"
         },
         "year_of_death": {
           "$id": "#/properties/demographic/properties/year_of_death",
